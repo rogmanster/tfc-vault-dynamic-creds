@@ -1,4 +1,4 @@
-iresource "null_resource" "runner" {
+resource "null_resource" "runner" {
   provisioner "local-exec" {
     command = <<EOT
       pwd
